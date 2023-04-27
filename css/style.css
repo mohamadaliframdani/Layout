@@ -1,0 +1,54 @@
+.navbarku {
+	background-color: gray;
+	color: white;
+	width: 100%;
+	border-color: #1e88e5;
+}
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card {
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 4px 8px rgb(0 0 0/20%)
+}
+.card-body {
+	font-size: 18px;
+	padding: 5px;
+}
+.child-card {
+    padding-bottom: 10px;
+}
+row {
+  width: 100%;
+}
+.formku{
+	margin: 10px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	background-color:#FFFFFF;
+	float: right;
+	width: 35%;
+	font-size: 12px;
+	box-shadow: 0px 4px 8px rgb(0 0 0/10%)
+}
+.text-formku{
+	text-align: left;
+	font-size: 10px;
+}
+
+.grid {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(2, 2fr);
+  grid-auto-rows: minmax(auto, auto);
+  grid-gap: 10px;
+}
